@@ -8,5 +8,5 @@ export const profile = {
 
   linkedinUrl: 'https://www.linkedin.com/in/furkan-yildiz4/',
 
-  cvUrl: '/cv.pdf',
+  cvUrl: `${import.meta.env.BASE_URL}cv.pdf`,
 }
